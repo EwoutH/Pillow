@@ -1,6 +1,9 @@
 --- lib/jxl.cmake
 +++ lib/jxl.cmake
-@@ -260,7 +260,6 @@
+@@ -257,10 +257,9 @@
+   endif()
+ endforeach()
+ 
 -# Only install libjxl public library. The libjxl_dec is not installed since it
 -# contains symbols also in libjxl which would conflict if programs try to use
 -# both.
